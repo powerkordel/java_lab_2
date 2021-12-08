@@ -95,8 +95,8 @@ public class Main {
        int [] tabT = new int []{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
 
         int m = tabT.length;
-        --m;
-        boolean r = (m + 1 > 0);
+        if (m > 0 || m < 20)--m;
+
 
 
              while (true)
@@ -107,7 +107,8 @@ public class Main {
                else break;
 
              }
-            */
+
+         */
 
         System.out.println("\n");
        System.out.println("Przypadek gdy while(false): pojawi się komunikat 'Unreachable statement' ");
