@@ -117,12 +117,12 @@ public class Main {
 
         int m = tabT.length;
         --m;
-        int  r;
+
 
         while (false)
         {
 
-            System.out.println(tabT[m] + "' ");
+            System.out.println(tabT[m] + ", ");
         }
          */
 
